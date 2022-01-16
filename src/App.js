@@ -52,15 +52,51 @@ function App() {
       <input type='color' onChange={handleInput} value={state} className='m-2' />
       <input type='text' value={state} onChange={handleInput} />
     </div>
+
+    <section>
+      <div className="set">
+        <div><img src="./images/leaves1.png" /></div>
+        <div><img src="./images/leaves2.png" /></div>
+        <div><img src="./images/leaves3.png" /></div>
+        <div><img src="./images/leaves4.png" /></div>
+        <div><img src="./images/leaves1.png" /></div>
+        <div><img src="./images/leaves2.png" /></div>
+        <div><img src="./images/leaves3.png" /></div>
+        <div><img src="./images/leaves4.png" /></div>
+      </div>
+      <div className="set set2">
+        <div><img src="./images/leaves1.png" /></div>
+        <div><img src="./images/leaves2.png" /></div>
+        <div><img src="./images/leaves3.png" /></div>
+        <div><img src="./images/leaves4.png" /></div>
+        <div><img src="./images/leaves1.png" /></div>
+        <div><img src="./images/leaves2.png" /></div>
+        <div><img src="./images/leaves3.png" /></div>
+        <div><img src="./images/leaves4.png" /></div>
+      </div>
+      <div className="set set3">
+        <div><img src="./images/leaves1.png" /></div>
+        <div><img src="./images/leaves2.png" /></div>
+        <div><img src="./images/leaves3.png" /></div>
+        <div><img src="./images/leaves4.png" /></div>
+        <div><img src="./images/leaves1.png" /></div>
+        <div><img src="./images/leaves2.png" /></div>
+        <div><img src="./images/leaves3.png" /></div>
+        <div><img src="./images/leaves4.png" /></div>
+      </div>
+      
     <div style={{ backgroundColor: state }} className='innerDiv'>
-      <div style={{textAlign:'center'}}>
+      <div style={{ textAlign: 'center' }}>
         <h1 className='mt-3' style={{ color: getInvertColor(state) }}>Hello Friends</h1>
         <p className='mt-3' style={{ color: getInvertColor(state) }}>
           This is a contrast text.
         </p>
       </div>
     </div>
+    </section>
   </div>
+
+
   {/* Can create new component */ }
   {/* <ColorPicker value={state} onChange={handleInput} /> */ }
 
