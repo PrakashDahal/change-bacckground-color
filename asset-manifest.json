@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/change-bacckground-color/static/css/main.c472b610.css",
-    "main.js": "/change-bacckground-color/static/js/main.22f443f5.js",
+    "main.js": "/change-bacckground-color/static/js/main.4a12a79d.js",
     "static/js/787.8b9ebdbc.chunk.js": "/change-bacckground-color/static/js/787.8b9ebdbc.chunk.js",
     "index.html": "/change-bacckground-color/index.html",
     "main.c472b610.css.map": "/change-bacckground-color/static/css/main.c472b610.css.map",
-    "main.22f443f5.js.map": "/change-bacckground-color/static/js/main.22f443f5.js.map",
+    "main.4a12a79d.js.map": "/change-bacckground-color/static/js/main.4a12a79d.js.map",
     "787.8b9ebdbc.chunk.js.map": "/change-bacckground-color/static/js/787.8b9ebdbc.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c472b610.css",
-    "static/js/main.22f443f5.js"
+    "static/js/main.4a12a79d.js"
   ]
 }
