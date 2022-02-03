@@ -12,12 +12,12 @@ function App() {
 
   function padZero(str, len) {
     len = len || 2;
-    var zeros = new Array(len).join('0');
+    let zeros = new Array(len).join('0');
     return (zeros + str).slice(-len);
   }
 
   const getInvertColor = (hex, bw) => {
-    if (hex.length == 4 || hex.length == 7) {
+    if (hex.length === 4 || hex.length === 7) {
       if (hex.indexOf('#') === 0) {
         hex = hex.slice(1);
       }
@@ -28,7 +28,7 @@ function App() {
       if (hex.length !== 6) {
         throw new Error('Invalid HEX color.');
       }
-      var r = parseInt(hex.slice(0, 2), 16),
+      let r = parseInt(hex.slice(0, 2), 16),
         g = parseInt(hex.slice(2, 4), 16),
         b = parseInt(hex.slice(4, 6), 16);
       if (bw) {
@@ -55,34 +55,34 @@ function App() {
 
     <section>
       <div className="set">
-        <div><img src="./images/leaves1.png" /></div>
-        <div><img src="./images/leaves2.png" /></div>
-        <div><img src="./images/leaves3.png" /></div>
-        <div><img src="./images/leaves4.png" /></div>
-        <div><img src="./images/leaves1.png" /></div>
-        <div><img src="./images/leaves2.png" /></div>
-        <div><img src="./images/leaves3.png" /></div>
-        <div><img src="./images/leaves4.png" /></div>
+        <div><img src="./images/leaves1.png" alt='leaves'/></div>
+        <div><img src="./images/leaves2.png" alt='leaves'/></div>
+        <div><img src="./images/leaves3.png" alt='leaves'/></div>
+        <div><img src="./images/leaves4.png" alt='leaves'/></div>
+        <div><img src="./images/leaves1.png" alt='leaves'/></div>
+        <div><img src="./images/leaves2.png" alt='leaves'/></div>
+        <div><img src="./images/leaves3.png" alt='leaves'/></div>
+        <div><img src="./images/leaves4.png" alt='leaves'/></div>
       </div>
       <div className="set set2">
-        <div><img src="./images/leaves1.png" /></div>
-        <div><img src="./images/leaves2.png" /></div>
-        <div><img src="./images/leaves3.png" /></div>
-        <div><img src="./images/leaves4.png" /></div>
-        <div><img src="./images/leaves1.png" /></div>
-        <div><img src="./images/leaves2.png" /></div>
-        <div><img src="./images/leaves3.png" /></div>
-        <div><img src="./images/leaves4.png" /></div>
+        <div><img src="./images/leaves1.png" alt='leaves'/></div>
+        <div><img src="./images/leaves2.png" alt='leaves'/></div>
+        <div><img src="./images/leaves3.png" alt='leaves'/></div>
+        <div><img src="./images/leaves4.png" alt='leaves'/></div>
+        <div><img src="./images/leaves1.png" alt='leaves'/></div>
+        <div><img src="./images/leaves2.png" alt='leaves'/></div>
+        <div><img src="./images/leaves3.png" alt='leaves'/></div>
+        <div><img src="./images/leaves4.png" alt='leaves'/></div>
       </div>
       <div className="set set3">
-        <div><img src="./images/leaves1.png" /></div>
-        <div><img src="./images/leaves2.png" /></div>
-        <div><img src="./images/leaves3.png" /></div>
-        <div><img src="./images/leaves4.png" /></div>
-        <div><img src="./images/leaves1.png" /></div>
-        <div><img src="./images/leaves2.png" /></div>
-        <div><img src="./images/leaves3.png" /></div>
-        <div><img src="./images/leaves4.png" /></div>
+        <div><img src="./images/leaves1.png" alt='leaves'/></div>
+        <div><img src="./images/leaves2.png" alt='leaves'/></div>
+        <div><img src="./images/leaves3.png" alt='leaves'/></div>
+        <div><img src="./images/leaves4.png" alt='leaves'/></div>
+        <div><img src="./images/leaves1.png" alt='leaves'/></div>
+        <div><img src="./images/leaves2.png" alt='leaves'/></div>
+        <div><img src="./images/leaves3.png" alt='leaves'/></div>
+        <div><img src="./images/leaves4.png" alt='leaves'/></div>
       </div>
       
     <div style={{ backgroundColor: state }} className='innerDiv'>
